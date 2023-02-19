@@ -3,6 +3,7 @@ const data = {
  city: null,
  limit: null,
  result: [],
+ finalResult: [],
 }
 
 export default {

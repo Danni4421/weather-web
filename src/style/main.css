@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -61,4 +63,33 @@ input:focus {
 
 .weather-container {
   padding: 20px;
+}
+
+.card {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+}
+
+.card-thumbnail {
+  width: 200px;
+  height: 200px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.card-thumbnail > .status {
+  position: relative;
+  top: -110px;
+  left: -100px;
+}
+
+.status > h4 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 3rem;
+  color: #ffffff;
 }
